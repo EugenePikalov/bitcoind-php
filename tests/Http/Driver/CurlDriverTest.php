@@ -8,14 +8,14 @@
 namespace Tests\Nbobtc\Http\Driver;
 use Nbobtc\Http\Driver\CurlDriver;
 use Psr\Http\Message\ResponseInterface;
-use Zend\Diactoros\Request;
+use Laminas\Diactoros\Request;
 
 /**
  */
 class CurlDriverTest extends \PHPUnit_Framework_TestCase
 {
     public function testExplodesWithTwo() {
-        $body = new \Zend\Diactoros\Stream('php://temp', 'w+');
+        $body = new \Laminas\Diactoros\Stream('php://temp', 'w+');
         $body->write("test");
 
         $request = (new Request("https://google.com"));

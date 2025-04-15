@@ -8,7 +8,7 @@
 namespace Nbobtc\Http\Driver;
 
 use Psr\Http\Message\RequestInterface;
-use Zend\Diactoros\Response;
+use Laminas\Diactoros\Response;
 
 /**
  * Uses cURL to send Requests

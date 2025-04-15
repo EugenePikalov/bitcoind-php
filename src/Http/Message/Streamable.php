@@ -7,7 +7,7 @@
 
 namespace Nbobtc\Http\Message;
 
-use Zend\Diactoros\Stream;
+use Laminas\Diactoros\Stream;
 
 /**
  * Represents the body of the request/response

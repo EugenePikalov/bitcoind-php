@@ -7,7 +7,7 @@
 
 namespace Nbobtc\Http\Message;
 
-use Zend\Diactoros\Response as DiactorosResponse;
+use Laminas\Diactoros\Response as DiactorosResponse;
 
 /**
  * @since 2.0.0

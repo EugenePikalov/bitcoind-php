@@ -7,7 +7,7 @@
 
 namespace Nbobtc\Http\Message;
 
-use Zend\Diactoros\Uri as DiactorosUri;
+use Laminas\Diactoros\Uri as DiactorosUri;
 
 /**
  * @since 2.0.0

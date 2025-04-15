@@ -12,7 +12,7 @@ use Nbobtc\Http\Driver\CurlDriver;
 use Nbobtc\Http\Driver\DriverInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Zend\Diactoros\Request;
+use Laminas\Diactoros\Request;
 
 /**
  * @since 2.0.0
